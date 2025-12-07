@@ -1,0 +1,18 @@
+# Part 1 — Odd and Even Lists
+num = int(input("Enter a number: "))
+
+odd_numbers = [n for n in range(num) if n % 2 != 0]
+even_numbers = [n for n in range(num) if n % 2 == 0]
+
+print("Odd numbers below your number:", odd_numbers)
+print("Even numbers below your number:", even_numbers)
+
+
+# Part 2 — Fruit List with Capital Letters
+fruits = ["apple", "banana", "mango", "grapes", "orange"]
+
+# Capitalize the first letter of each fruit
+updated_fruits = [fruit.capitalize() for fruit in fruits]
+
+print("Original fruits:", fruits)
+print("Fruits with capital letters:", updated_fruits)
